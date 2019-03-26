@@ -1,0 +1,8 @@
+{
+  "HOME": "/",
+  "COUNTER": "/counter",
+  "INDEX": "/index",
+  "SERIES": "/series",
+  "MOVIE": "/index/:movie_id",
+  "SERIE": "/series/:id"
+}

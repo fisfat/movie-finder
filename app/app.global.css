@@ -1,0 +1,90 @@
+/*
+ * @NOTE: Prepend a `~` to css file paths that are in your node_modules
+ *        See https://github.com/webpack-contrib/sass-loader#imports
+ */
+@import '~@fortawesome/fontawesome-free/css/all.css';
+
+html{
+    background-color: black;
+}
+
+a{
+    color: aliceblue;
+}
+
+.shift-down{
+    margin-top: 150px;
+}
+
+.card{
+    margin: 5px;
+}
+h2{
+    color: #831010;
+}
+h6              {
+    color: #831010;
+}
+h3              {
+    color: #831010;
+}
+.arrow{
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.searchbar{
+    margin-bottom: auto;
+    margin-top: auto;
+    height: 60px;
+    background-color: #353b48;
+    border-radius: 30px;
+    padding: 10px;
+    }
+
+    .search_input{
+    color: white;
+    border: 0;
+    outline: 0;
+    background: none;
+    width: 0;
+    caret-color:transparent;
+    line-height: 40px;
+    transition: width 0.4s linear;
+    }
+
+    .searchbar:hover > .search_input{
+    padding: 0 10px;
+    width: 450px;
+    caret-color:red;
+    transition: width 0.4s linear;
+    }
+
+    .searchbar:hover > .search_icon{
+    background: white;
+    color: #831010;
+    }
+
+    .search_icon{
+    height: 40px;
+    width: 40px;
+    float: right;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    color:black;
+    }
+
+    .btn-secondary{
+        background-color: #831010 !important;
+    }
+    nav{
+        background-color: black !important;
+    }
+    .navbar-brand{
+        color: #831010 !important;
+        font-weight: bold;
+    }
+    #front{
+        color: #564d4d !important;
+    }
